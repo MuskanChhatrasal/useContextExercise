@@ -14,7 +14,7 @@ export function Cart() {
         </h1>
       ) : (
         <h1 style={{ color: theme === "light" ? "black" : "white" }}>
-          आपके कार्ट मे {items} इतने आईटम्स हैं |
+          आपके कार्ट मे {items} आईटम्स हैं |
         </h1>
       )}
     </div>
